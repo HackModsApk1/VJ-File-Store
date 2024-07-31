@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5827445104').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "HackModsApk1_Filebot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "HackModsApk1_File_Upload_Bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
